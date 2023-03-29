@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <Link rel="stylesheet" href="/css/custom.min.css">
+  <Link rel="stylesheet" href="/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Home</title>
+</head>
+<body>
+  <header class="mb-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-lg">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="/index.html">كورسيرا</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">التصنيفات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">الكورسات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">المدربين</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">اتصل بنا</a>
+            </li>
+          </ul>
+          <div>
+            <a href="/login.html" type="button" class="btn btn-primary">تسجيل الدخول</a>
+            <a href="#" type="button" class="btn btn-dark">تسجيل</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide custom_hero_carousel" data-bs-ride="carousel">
+      <div class="carousel-indicators custom_hero_carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner h-100">
+        <div class="carousel-item active h-100 overflow-hidden">
+          <img src="https://assets-global.website-files.com/5e39e095596498a8b9624af1/5f18319b0a7237ca4f4ef9dc_Web%20elements.jpg" class="d-block w-100 custom-hero-image" alt="...">
+          <div class="carousel-caption custom_hero_carousel-caption">
+            <h1>دائما انظر الى الجانب المشرق للحياة</h1>
+            <p class="d-none d-md-block fs-5">دائما انظر الى الجانب المشرق للحياة.</p>
+            <button type="button" class="btn btn-outline-light btn-lg">البدء بالتصفح</button>
+          </div>
+        </div>
+        <div class="carousel-item h-100 overflow-hidden">
+          <img src="https://assets-global.website-files.com/5e39e095596498a8b9624af1/5f85a7ea952706520533a21f_editor.jpg" class="d-block w-100 custom-hero-image" alt="...">
+          <div class="carousel-caption custom_hero_carousel-caption">
+            <h1>دائما انظر الى الجانب المشرق للحياة</h1>
+            <p class="d-none d-md-block fs-5">دائما انظر الى الجانب المشرق للحياة.</p>
+            <button type="button" class="btn btn-outline-light btn-lg">البدء بالتصفح</button>
+          </div>
+        </div>
+        <div class="carousel-item h-100 overflow-hidden">
+          <img src="https://assets-global.website-files.com/5e39e095596498a8b9624af1/5f18321b82797afe4defe702_101%20crashcourse.jpg" class="d-block w-100 custom-hero-image" alt="...">
+          <div class="carousel-caption custom_hero_carousel-caption">
+            <h1>دائما انظر الى الجانب المشرق للحياة</h1>
+            <p class="d-none d-md-block fs-5">دائما انظر الى الجانب المشرق للحياة.</p>
+            <button type="button" class="btn btn-outline-light btn-lg">البدء بالتصفح</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+
+
+  <main class="mb-5">
+
+    <div id="home_sessions-interest-you" class="container mb-5">  
+      <div class="mb-2 d-flex justify-content-between">
+        <h2 class="text-primary">جلسات تفاعلية قد تهمك</h2>
+        <a href="#" class="text-decoration-none hover-bold">عرض الكل</a>
+      </div>
+      <div class="swiper-container sessions-interest-you-slider">
+        <div class="swiper-wrapper">
+          <div class="card swiper-slide shadow-sm border-0 hover-zoom">
+            <span class="badge bg-danger position-absolute card-live-badge fw-normal">
+              Live
+              <i class="fa-solid fa-earth-americas"></i>
+            </span>
+            <div class="row g-0">
+              <div class="col-md-4 position-relative overflow-hidden">
+                <img src="https://www.simplilearn.com/ice9/webinar_thum_image/Digital_Marketing_Tutorial.jpg" class="rounded-end position-absolute h-100" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">مئه يوم من البرمجة</h5>
+                  <p class="card-text">أنا سعيد لأنني أخذت هذه الدورة. كان هناك دائمًا شيء لنتعلمه في كل درس. دفاتر المتوفرة مفيدة للغاية.كثيرًا أيضًا.</p>
+                  <p class="card-text d-flex justify-content-between align-items-center">
+                    <a href="#" class="text-decoration-none">الدكتور أنجيلا يو</a>
+                    <span class="bg-danger fw-normal fst-normal text-white p-1 rounded-2 badge h-auto">02:15:02</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide shadow-sm border-0 hover-zoom">
+            <span class="badge bg-danger position-absolute card-live-badge fw-normal">
+              Live
+              <i class="fa-solid fa-earth-americas"></i>
+            </span>
+            <div class="row g-0">
+              <div class="col-md-4 position-relative overflow-hidden">
+                <img src="https://www.simplilearn.com/ice9/webinar_thum_image/Digital_Marketing_Tutorial.jpg" class="rounded-end position-absolute h-100" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">مئه يوم من البرمجة</h5>
+                  <p class="card-text">أنا سعيد لأنني أخذت هذه الدورة. كان هناك دائمًا شيء لنتعلمه في كل درس. دفاتر المتوفرة مفيدة للغاية.كثيرًا أيضًا.</p>
+                  <p class="card-text d-flex justify-content-between align-items-center">
+                    <a href="#" class="text-decoration-none">الدكتور أنجيلا يو</a>
+                    <span class="bg-danger fw-normal fst-normal text-white p-1 rounded-2 badge h-auto">02:15:02</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide shadow-sm border-0 hover-zoom">
+            <div class="row g-0">
+              <div class="col-md-4 position-relative overflow-hidden">
+                <img src="https://www.simplilearn.com/ice9/webinar_thum_image/Digital_Marketing_Tutorial.jpg" class="rounded-end position-absolute h-100" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">مئه يوم من البرمجة</h5>
+                  <p class="card-text">أنا سعيد لأنني أخذت هذه الدورة. كان هناك دائمًا شيء لنتعلمه في كل درس. دفاتر المتوفرة مفيدة للغاية.كثيرًا أيضًا.</p>
+                  <p class="card-text d-flex justify-content-between align-items-center">
+                    <a href="#" class="text-decoration-none">الدكتور أنجيلا يو</a>
+                    <span class="bg-danger fw-normal fst-normal text-white p-1 rounded-2 badge h-auto">02:15:02</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide shadow-sm border-0 hover-zoom">
+            <div class="row g-0">
+              <div class="col-md-4 position-relative overflow-hidden">
+                <img src="https://www.simplilearn.com/ice9/webinar_thum_image/Digital_Marketing_Tutorial.jpg" class="rounded-end position-absolute h-100" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">مئه يوم من البرمجة</h5>
+                  <p class="card-text">أنا سعيد لأنني أخذت هذه الدورة. كان هناك دائمًا شيء لنتعلمه في كل درس. دفاتر المتوفرة مفيدة للغاية.كثيرًا أيضًا.</p>
+                  <p class="card-text d-flex justify-content-between align-items-center">
+                    <a href="#" class="text-decoration-none">الدكتور أنجيلا يو</a>
+                    <span class="bg-danger fw-normal fst-normal text-white p-1 rounded-2 badge h-auto">02:15:02</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide shadow-sm border-0 hover-zoom">
+            <span class="badge bg-danger position-absolute card-live-badge fw-normal">
+              Live
+              <i class="fa-solid fa-earth-americas"></i>
+            </span>
+            <div class="row g-0">
+              <div class="col-md-4 position-relative overflow-hidden">
+                <img src="https://www.simplilearn.com/ice9/webinar_thum_image/Digital_Marketing_Tutorial.jpg" class="rounded-end position-absolute h-100" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">مئه يوم من البرمجة</h5>
+                  <p class="card-text">أنا سعيد لأنني أخذت هذه الدورة. كان هناك دائمًا شيء لنتعلمه في كل درس. دفاتر المتوفرة مفيدة للغاية.كثيرًا أيضًا.</p>
+                  <p class="card-text d-flex justify-content-between align-items-center">
+                    <a href="#" class="text-decoration-none">الدكتور أنجيلا يو</a>
+                    <span class="bg-danger fw-normal fst-normal text-white p-1 rounded-2 badge h-auto">02:15:02</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide shadow-sm border-0 hover-zoom">
+            <div class="row g-0">
+              <div class="col-md-4 position-relative overflow-hidden">
+                <img src="https://www.simplilearn.com/ice9/webinar_thum_image/Digital_Marketing_Tutorial.jpg" class="rounded-end position-absolute h-100" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">مئه يوم من البرمجة</h5>
+                  <p class="card-text">أنا سعيد لأنني أخذت هذه الدورة. كان هناك دائمًا شيء لنتعلمه في كل درس. دفاتر المتوفرة مفيدة للغاية.كثيرًا أيضًا.</p>
+                  <p class="card-text d-flex justify-content-between align-items-center">
+                    <a href="#" class="text-decoration-none">الدكتور أنجيلا يو</a>
+                    <span class="bg-danger fw-normal fst-normal text-white p-1 rounded-2 badge h-auto">02:15:02</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination custom-swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div id="home_start-learn" class="mb-5 container">
+      <div class="mb-2 d-flex justify-content-between">
+        <h2 class="text-primary">ابدأ التعلم معنا</h2>
+        <a href="#" class="text-decoration-none hover-bold">عرض الكل</a>
+      </div>
+      <div class="swiper-container start-learn-slider">
+        <div class="swiper-wrapper">
+          <div class="card swiper-slide border-0 shadow-sm">
+            <div class="position-relative overflow-hidden h-75">
+              <img src="https://www.coursolution.com/assets/img/co-6.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text fs-6">شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</p>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <div class="position-relative overflow-hidden h-75">
+              <img src="https://www.coursolution.com/assets/img/co-6.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text fs-6">شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</p>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <div class="position-relative overflow-hidden h-75">
+              <img src="https://www.coursolution.com/assets/img/co-6.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text fs-6">شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</p>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <div class="position-relative overflow-hidden h-75">
+              <img class="card-img-top" src="https://www.coursolution.com/assets/img/co-6.jpg" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text fs-6">شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</p>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <div class="position-relative overflow-hidden h-75">
+              <img src="https://campustechnology.com/-/media/EDU/CampusTechnology/2020-images/20200813online.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text fs-6">شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</p>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <div class="position-relative overflow-hidden h-75">
+              <img src="https://www.coursolution.com/assets/img/co-6.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text fs-6">شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination custom-swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div class="home_simple-hero mb-5">
+      <div class="text-center bg-image custom-hero-container" style="background-image: url(https://caelanhuntress.com/wp-content/uploads/2022/03/speed-networking-bg.png);">
+        <div class="mask h-100" style="background-color: rgba(0, 0, 0, 0.6);">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-5">دائما انظر الى الجانب المشرق للحياة</h1>
+              <div>
+                <a class="btn btn-outline-light btn-lg" href="#" role="button">البدء بالتصفح</a>
+                <a class="btn btn-primary btn-lg" href="#" role="button">البدء بالتصفح</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="home_new-courses mb-5 container">
+      <div class="mb-2 text-center">
+        <h2 class="text-primary">الدورات الجديدة</h2>
+      </div>
+
+      <div class="swiper-container new-courses-slider">
+        <div class="swiper-wrapper">
+          <div class="card swiper-slide text-center border-0 shadow-sm">
+            <img class="w-25 mb-3 mt-4" alt="icon" src="https://cdn-icons-png.flaticon.com/512/420/420345.png" />
+            <h4 class="text-primary hover-zoom"><a href="#" class="text-decoration-none">تصميم جرافيكي</a></h4>
+            <p>وصف الدورة بشكل مختصر</p>
+          </div>
+          <div class="card swiper-slide text-center border-0 shadow-sm">
+            <img class="w-25 mb-3 mt-4" alt="icon" src="https://cdn-icons-png.flaticon.com/512/2942/2942488.png" />
+            <h4 class="text-primary hover-zoom"><a href="#" class="text-decoration-none">هندسة معماري</a></h4>
+            <p>وصف الدورة بشكل مختصر</p>
+          </div>
+          <div class="card swiper-slide text-center border-0 shadow-sm">
+            <img class="w-25 mb-3 mt-4" alt="icon" src="https://cdn-icons-png.flaticon.com/512/1995/1995630.png" />
+            <h4 class="text-primary hover-zoom"><a href="#" class="text-decoration-none">هندسة مدني</a></h4>
+            <p>وصف الدورة بشكل مختصر</p>
+          </div>
+          <div class="card swiper-slide text-center border-0 shadow-sm">
+            <img class="w-25 mb-3 mt-4" alt="icon" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" />
+            <h4 class="text-primary hover-zoom"><a href="#" class="text-decoration-none">برمجة ويب</a></h4>
+            <p>وصف الدورة بشكل مختصر</p>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination custom-swiper-pagination"></div>
+      </div>
+    </div>
+
+
+    <div class="home_new-courses mb-5 container">
+      <div class="mb-2 text-center">
+        <h2 class="text-primary">العروض المميزة</h2>
+      </div>
+      <div class="swiper-container new-courses-slider">
+        <div class="swiper-wrapper">
+          <div class="card swiper-slide text-center border-0 shadow-sm">
+            <img class="w-25 mb-3 mt-4" alt="icon" src="https://icon-library.com/images/mobile-app-icon-png/mobile-app-icon-png-16.jpg" />
+            <h4 class="text-primary hover-zoom"><a href="#" class="text-decoration-none">برمجة موبايل</a></h4>
+            <p>وصف الدورة بشكل مختصر</p>
+          </div>
+          <div class="card swiper-slide text-center border-0 shadow-sm">
+            <img class="w-25 mb-3 mt-4" alt="icon" src="https://icons.veryicon.com/png/o/education-technology/blue-gray-solid-blend-icon/artificial-intelligence-5.png" />
+            <h4 class="text-primary hover-zoom"><a href="#" class="text-decoration-none">الذكاء الاصطناعي</a></h4>
+            <p>وصف الدورة بشكل مختصر</p>
+          </div>
+          <div class="card swiper-slide text-center border-0 shadow-sm">
+            <img class="w-25 mb-3 mt-4" alt="icon" src="https://cdn-icons-png.flaticon.com/512/2802/2802825.png" />
+            <h4 class="text-primary hover-zoom"><a href="#" class="text-decoration-none">كيمياء</a></h4>
+            <p>وصف الدورة بشكل مختصر</p>
+          </div>
+          <div class="card swiper-slide text-center border-0 shadow-sm">
+            <img class="w-25 mb-3 mt-4" alt="icon" src="https://cdn-icons-png.flaticon.com/512/926/926361.png" />
+            <h4 class="text-primary hover-zoom"><a href="#" class="text-decoration-none">فيزياء</a></h4>
+            <p>وصف الدورة بشكل مختصر</p>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination custom-swiper-pagination"></div>
+      </div>
+    </div>
+
+
+    <div class="home_graphic-design-courses-sections mb-5 container">
+      <div class="mb-2 d-flex justify-content-between container">
+        <h2 class="text-primary">دورات تصميم جرافيكي</h2>
+      </div>
+      <div class="swiper-container graphic-design-courses-slider">
+        <div class="swiper-wrapper">
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://nvit.com.bd/wp-content/uploads/2021/03/ImageGraphics.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://nvit.com.bd/wp-content/uploads/2021/03/ImageGraphics.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://nvit.com.bd/wp-content/uploads/2021/03/ImageGraphics.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://nvit.com.bd/wp-content/uploads/2021/03/ImageGraphics.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://nvit.com.bd/wp-content/uploads/2021/03/ImageGraphics.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://nvit.com.bd/wp-content/uploads/2021/03/ImageGraphics.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination custom-swiper-pagination"></div>
+      </div>
+    </div>
+
+
+    <div class="home_programming-courses-sections mb-5 container">
+      <div class="mb-2 d-flex justify-content-between container">
+        <h2 class="text-primary">دورات برمجة</h2>
+      </div>
+      <div class="swiper-container programming-courses-slider">
+        <div class="swiper-wrapper">
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://www.freecodecamp.org/news/content/images/2023/01/programming-courses-banner.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://www.freecodecamp.org/news/content/images/2023/01/programming-courses-banner.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://www.freecodecamp.org/news/content/images/2023/01/programming-courses-banner.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://www.freecodecamp.org/news/content/images/2023/01/programming-courses-banner.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://www.freecodecamp.org/news/content/images/2023/01/programming-courses-banner.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination custom-swiper-pagination"></div>
+      </div>
+    </div>
+
+
+    <div class="home_arts-courses-sections mb-5 container">
+      <div class="mb-2 d-flex justify-content-between container">
+        <h2 class="text-primary">دورات فنون</h2>
+      </div>
+      <div class="swiper-container arts-courses-slider">
+        <div class="swiper-wrapper">
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://images.savoysystems.co.uk/FLD/8254472.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://images.savoysystems.co.uk/FLD/8254472.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://images.savoysystems.co.uk/FLD/8254472.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://images.savoysystems.co.uk/FLD/8254472.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide border-0 shadow-sm">
+            <img src="https://images.savoysystems.co.uk/FLD/8254472.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+              <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <i class="fa-solid fa-comment-dots text-primary"></i>
+                  <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                </div>
+                <div class="text-primary">
+                  <span>عدد الساعات :</span>
+                  <span>18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination custom-swiper-pagination"></div>
+      </div>
+    </div>
+
+
+    <div class="home_simple-hero mb-5">
+      <div class="text-center bg-image custom-hero-container" style="background-image: url(https://www.sccnewsbyte.co.uk/wp-content/uploads/2017/03/network-bg.jpg);">
+        <div class="mask h-100" style="background-color: rgba(0, 0, 0, 0.6);">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-5">دائما انظر الى الجانب المشرق للحياة</h1>
+              <div>
+                <a class="btn btn-outline-light btn-lg" href="#" role="button">البدء بالتصفح</a>
+                <a class="btn btn-primary btn-lg" href="#" role="button">البدء بالتصفح</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="home_tabs-sections mb-5">
+      <div class="container">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-latest-tab" data-bs-toggle="pill" data-bs-target="#pills-latest" type="button" role="tab" aria-controls="pills-latest" aria-selected="true">الأحدث</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-mostcommon-tab" data-bs-toggle="pill" data-bs-target="#pills-mostcommon" type="button" role="tab" aria-controls="pills-mostcommon" aria-selected="false">الأكثر شيوعاً</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-offers-tab" data-bs-toggle="pill" data-bs-target="#pills-offers" type="button" role="tab" aria-controls="pills-offers" aria-selected="false">آخر العروض</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-latest" role="tabpanel" aria-labelledby="pills-latest-tab">
+            <div class="swiper-container tabs-latest-slider">
+              <div class="swiper-wrapper">
+                <div class="card swiper-slide border-0 shadow-sm">
+                  <img src="https://www.freecodecamp.org/news/content/images/2023/01/programming-courses-banner.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+                    <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <i class="fa-solid fa-comment-dots text-primary"></i>
+                        <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                      </div>
+                      <div class="text-primary">
+                        <span>عدد الساعات :</span>
+                        <span>18</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide border-0 shadow-sm">
+                  <img src="https://www.freecodecamp.org/news/content/images/2023/01/programming-courses-banner.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+                    <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <i class="fa-solid fa-comment-dots text-primary"></i>
+                        <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                      </div>
+                      <div class="text-primary">
+                        <span>عدد الساعات :</span>
+                        <span>18</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide border-0 shadow-sm">
+                  <img src="https://www.freecodecamp.org/news/content/images/2023/01/programming-courses-banner.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+                    <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <i class="fa-solid fa-comment-dots text-primary"></i>
+                        <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                      </div>
+                      <div class="text-primary">
+                        <span>عدد الساعات :</span>
+                        <span>18</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide border-0 shadow-sm">
+                  <img src="https://www.freecodecamp.org/news/content/images/2023/01/programming-courses-banner.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+                    <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <i class="fa-solid fa-comment-dots text-primary"></i>
+                        <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                      </div>
+                      <div class="text-primary">
+                        <span>عدد الساعات :</span>
+                        <span>18</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide border-0 shadow-sm">
+                  <img src="https://www.freecodecamp.org/news/content/images/2023/01/programming-courses-banner.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+                    <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <i class="fa-solid fa-comment-dots text-primary"></i>
+                        <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                      </div>
+                      <div class="text-primary">
+                        <span>عدد الساعات :</span>
+                        <span>18</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide border-0 shadow-sm">
+                  <img src="https://www.freecodecamp.org/news/content/images/2023/01/programming-courses-banner.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary hover-bold"><a href="#" class="text-decoration-none">اسم الدورة</a></h5>
+                    <p class="card-text"><small>شرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنهاشرح عن الدورة أو كتابة ملخص عنها.</small></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <i class="fa-solid fa-comment-dots text-primary"></i>
+                        <span><a href="" target="_blank" class="text-decoration-none text-dark hover-text-primary">آراء المستخدمين</a></span>
+                      </div>
+                      <div class="text-primary">
+                        <span>عدد الساعات :</span>
+                        <span>18</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-mostcommon" role="tabpanel" aria-labelledby="pills-mostcommon-tab">...</div>
+          <div class="tab-pane fade" id="pills-offers" role="tabpanel" aria-labelledby="pills-offers-tab">...</div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <footer class="bg-dark">
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
+        <div class="col mb-3">
+          <ul class="nav flex-column gap-3 p-0">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">للعمل</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">تعلم</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">احصل على التطبيق</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">معلومات عنا</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <ul class="nav flex-column gap-3 p-0">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">وظائف</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">مدونة</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">مساعدة و دعم</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">شركة تابعة</a></li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <ul class="nav flex-column gap-3 p-0">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">شروط</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">سياسة الخصوصية وسياسة ملفات</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">تعريف الارتباط</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">خريطة الموقع</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light hover-underline">الدورات المميزة</a></li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <div class="settings">
+            <div class="w-100 h-100 rounded-2 mb-3 bg-white"></div>
+            <select class="form-select form-select-lg" aria-label="Default select example">
+              <option value="ar" selected>العربية</option>
+              <option value="en">English</option>
+            </select>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="bg-light shadow-lg py-2">
+      <div class="container d-flex justify-content-between">
+        <div class="d-flex align-items-center gap-3">
+          <span class="fs-5"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></span>
+          <span class="fs-5"><a href="#"><i class="fa-brands fa-twitter"></i></a></span>
+          <span class="fs-5"><a href="#"><i class="fa-brands fa-youtube"></i></a></span>
+          <span class="fs-5"><a href="#"><i class="fa-brands fa-linkedin"></i></a></span>
+        </div>
+        <p class="text-body-secondary m-0">&copy; 2023</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</html>
